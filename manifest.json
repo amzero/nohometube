@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "NoHomeTube",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Hide all trash in the Youtube's home page.",
 
@@ -13,8 +13,8 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/"],
-      "js": ["nohometube.min.js"]
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["nohometube.js"]
     }
   ]
 
